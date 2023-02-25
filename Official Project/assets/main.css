@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*========================================Header============================================*/
+
+header{
+    height: 60px;
+    background: #2040b3;
+    padding: 0 50px;
+    top: 0px;
+    margin-bottom: 5px;
+}
+
+.logo{
+    width: 30%;
+    float: left;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 60px;
+    font-size: 35px; 
+    font-family: sans-serif; 
+}
+    
+nav{
+    width: 68%;
+    float: right;
+}
+    
+nav ul {
+    list-style: none;
+    float: right;
+}
+    
+nav ul li {
+    display: inline-block;
+}
+    
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0 10px;
+    text-transform: uppercase;
+    line-height: 60px;
+}
+
+
+
+/*====================================End of header=========================================*/
+
+#banner{
+    height: 200px;
+    background-color: #2040b3;
+    width: auto;
+}
+
+.intro-text, .navbtn{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+div button a{
+    text-decoration: none;
+    color: #fff;
+}
